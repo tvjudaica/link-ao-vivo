@@ -2,7 +2,7 @@
 #EXT-X-VERSION:3
 
 #EXT-X-STREAM-INF:BANDWIDTH=3000000
-https://exemplo.com/live/primary.m3u8
+https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8
 
 #EXT-X-STREAM-INF:BANDWIDTH=3000000
-https://exemplo.com/live/backup.m3u8
+https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8

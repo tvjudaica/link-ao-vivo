@@ -18,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 set_time_limit(20);
 date_default_timezone_set('America/Sao_Paulo');
 
-$primary = 'https://exemplo.com/live/primary.m3u8';
-$backup  = 'https://exemplo.com/live/backup.m3u8';
+$primary = 'https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8';
+$backup  = 'https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8';
 
 function streamOnline($url)
 {
