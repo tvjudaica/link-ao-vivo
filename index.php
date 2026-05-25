@@ -26,6 +26,9 @@ date_default_timezone_set('America/Sao_Paulo');
 $primary = 'https://tvjudaica.cyberti.com.br/live/stream.m3u8';
 $backup  = 'https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8';
 
+header("Location: $primary");
+die;
+
 function streamOnline($url)
 {
     $headers = @get_headers($url);
