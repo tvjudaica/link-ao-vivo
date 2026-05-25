@@ -9,7 +9,6 @@ ini_set('max_input_time', 60);
 ini_set('post_max_size', '500M');
 ini_set('upload_max_filesize', '500M');
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(204);
     exit;
@@ -25,9 +24,6 @@ date_default_timezone_set('America/Sao_Paulo');
 
 $primary = 'https://tvjudaica.cyberti.com.br/live/stream.m3u8';
 $backup  = 'https://br5093.streamingdevideo.com.br/tvjudaica/tvjudaica/playlist.m3u8';
-
-header("Location: $primary");
-die;
 
 function streamOnline($url)
 {
