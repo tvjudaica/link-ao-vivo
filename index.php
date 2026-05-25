@@ -15,6 +15,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
+if (!empty($_REQUEST['debug'])) {
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+}
+
 set_time_limit(20);
 date_default_timezone_set('America/Sao_Paulo');
 
